@@ -19,6 +19,7 @@ node_js:
   - "4.1"
 
 before_script:
+  - sudo npm install npm@latest
   - sudo npm link ../ems
   - sudo -H apt-get install python-pip
   - sudo -H apt-get install python3-pip
